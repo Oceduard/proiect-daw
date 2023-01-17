@@ -1,0 +1,77 @@
+/* Stilizare pentru header */
+header {
+    background-color: #f5f5f5;
+    padding: 1rem 0;
+}
+
+/* Stilizare pentru secțiunea "Despre dinozauri" */
+#despre {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#despre h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Stilizare pentru secțiunea "Dinozauri" */
+#dinozauri {
+    padding: 2rem 0;
+}
+
+#dinozauri .card {
+    margin-bottom: 1rem;
+}
+
+/* Stilizare pentru secțiunea "Contact" */
+#contact {
+    padding: 2rem 0;
+}
+
+#contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Stilizare pentru footer */
+footer {
+    background-color: #f5f5f5;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+
+/* Import font-uri personalizate */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+/* Definește variabile de culoare */
+:root {
+    --primary-color: rgb(5, 5, 5);
+    --secondary-color: #000000;
+    --tertiary-color: #000000;
+}
+
+/* Aplică font-ul personalizat pentru titlurile secțiunilor */
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Aplică culorile specifice pentru elementele din secțiunea "Despre" */
+#despre {
+    color: var(--primary-color);
+}
+
+/* Aplică culorile specifice pentru elementele din secțiunea "Dinozauri" */
+#dinozauri {
+    color: var(--secondary-color);
+}
+
+/* Aplică culorile specifice pentru elementele din secțiunea "Contact" */
+#contact {
+    color: var(--tertiary-color);
+}
+
+.card-back {
+    background-color: rgba(247, 247, 247, 0.4);
+}
